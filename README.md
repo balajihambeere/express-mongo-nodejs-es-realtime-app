@@ -4,6 +4,8 @@ The main purpose of this repository is to show a design and develop real-time ap
 
 ![alt text](https://yt3.ggpht.com/a/AGF-l793nM79HE9zfuL0DKN5Gb-MsCM_v3nDt2S1kQ=s900-c-k-c0xffffffff-no-rj-mo =250x250)
 
+<img src="https://yt3.ggpht.com/a/AGF-l793nM79HE9zfuL0DKN5Gb-MsCM_v3nDt2S1kQ=s900-c-k-c0xffffffff-no-rj-mo" width="300" height="200">
+
 # Pre-reqs
 To build and run this app locally you will need a few things:
 - Install [Node.js](https://nodejs.org/en/)
