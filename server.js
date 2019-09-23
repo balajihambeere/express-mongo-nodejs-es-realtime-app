@@ -45,8 +45,6 @@ passport.use(verifyToken);
 // Application-level middleware
 app.use(responseEnhancer());
 
-app.use(passport.initialize());
-
 // remove the X-Powered-By HTTP header
 app.disable('x-powered-by');
 

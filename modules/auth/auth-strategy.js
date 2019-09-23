@@ -31,7 +31,7 @@ const loginStrategy = new localStrategy(
             if (!user) {
                 return done(null, false, { message: 'User not found' });
             }
-            const validate = await user.comparePassword(password, user.password);
+            const validate = await user.verifyPassword(password, user.password);
             if (!validate) {
                 return done(null, false, { message: 'Wrong Password' });
             }

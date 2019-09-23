@@ -52,5 +52,5 @@ npm start
 ```
 
 
-Finally, navigate to `http://localhost:3000` and you should see the server started locally!
+Finally, navigate to `http://localhost:3200` and you should see the server started locally!
 

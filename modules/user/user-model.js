@@ -33,7 +33,7 @@ export const UserSchema = coreSchema({
     }
 });
 
-UserSchema.methods.comparePassword = (requestedPassword, password) => {
+UserSchema.methods.verifyPassword = (requestedPassword, password) => {
     return bcrypt.compareSync(requestedPassword, password);
 };
 
