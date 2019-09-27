@@ -4,7 +4,7 @@
   "description": "rest api using mongodb, mongoose, expressjs, nodejs",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha --require babel-register --timeout 10000",
     "prestart": "grunt",
     "start": "nodemon --exec babel-node server.js"
   },
@@ -37,14 +37,15 @@
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset": "^1.0.15",
     "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "chai": "^4.2.0",
     "grunt": "^1.0.4",
-    "grunt-contrib-concat": "^1.0.1",
-    "grunt-contrib-uglify": "^4.0.1",
-    "grunt-contrib-uglify-es": "git://github.com/gruntjs/grunt-contrib-uglify.git#harmony",
-    "grunt-contrib-watch": "^1.1.0",
     "grunt-eslint": "^22.0.0",
-    "nodemon": "^1.19.1"
+    "mocha": "^6.2.0",
+    "nodemon": "^1.19.1",
+    "supertest": "^4.0.2"
   }
 }
